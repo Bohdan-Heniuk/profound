@@ -1,0 +1,203 @@
+.container {
+    color: #333;
+    margin-bottom: 60px;
+
+}
+
+.inner_container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.page_title_div {
+    margin-top: 100px;
+    display: flex;
+    gap: 14px;
+}
+
+.page_title,
+.vacancy_count {
+    font-weight: 400;
+}
+
+.vacancy_count {
+    color: rgb(130, 130, 130);
+}
+
+.vacancy {
+    margin-top: 36px;
+}
+
+.vacancy:first-child {
+    margin-top: 0px;
+}
+
+.page_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 80px;
+}
+
+.vacancy_div {
+    
+    width: 65%;
+}
+
+
+.vacancy_title {
+    color: #186FC5;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.vacancy_info {
+    color: rgb(33, 37, 41);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.company_info_div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.company_logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    border: 0.5px solid rgb(231, 231, 231);
+}
+
+.company_name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #186FC5;
+}
+
+.location_div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.location_logo {
+    color: #777777;
+}
+
+.location {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 14px;
+}
+
+
+.filter_div {
+    width: 35%;
+}
+
+.filter_title {
+    color: #777777;
+    margin-top: 16px;
+    
+}
+
+.speciaties_type{
+    color: #777777;
+    font-size: 14px;
+}
+
+
+.filter_title:first-child {
+    margin-top: 0px;
+}
+
+.search_div {
+    margin-top: 8px;
+    display: flex;
+}
+
+.search_input {
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #777777;
+}
+
+.search_button {
+    width: 50px;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #777777;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: -1px;
+}
+
+.search_input:focus {
+    outline: none;
+}
+
+.specialization_div {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.specialization {
+    color: #186FC5;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #F5F8FB;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main_button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #186FC5;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    margin-bottom: 12px;
+
+}
+
+.specialization_checked{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #186FC5;
+}
+
+.empty{
+    font-size: 20px;
+    color:#777777;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.salary_div{
+    display: flex;
+    gap: 12px;
+}
+
+.salary{
+    color: #2a9c08;
+}

@@ -1,0 +1,88 @@
+.header {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.inner_header {
+    width: 980px;
+    margin: 0 auto;
+    padding: 8px 0px 8px 0px;
+
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tab_div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.logo {
+    object-fit: cover;
+    max-width: 200px; 
+    height: 22px;
+    display: block;
+}
+
+.vacancy_tab {
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.user_div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.user_info{
+    margin-right: 20px;
+}
+
+.user_photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+.user_fullname{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 4px;
+}
+
+.user_email{
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.user_name, .user_lastname{
+    line-height: 16px;
+}
+
+.user_name, .user_lastname, .user_email{
+    color:#4e4e4e;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.nav{
+    display: flex;
+    gap: 20px;
+}
